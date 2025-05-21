@@ -1,0 +1,19 @@
+# Ignore files in notebooks except ipynb
+notebooks/*
+!notebooks/*.ipynb
+
+# Ignore contents of db/ but keep the folder
+db/*
+!.gitkeep
+
+# Ignore junk/system files
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+# Common file types to ignore
+*.db
+*.json
+*.zip
+
